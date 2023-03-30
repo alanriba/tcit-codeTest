@@ -1,0 +1,15 @@
+<div class="container">
+    <form>
+        <div class="row">
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Nombre" [(ngModel)]="postForm.title">
+            </div>
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Descripcion" [(ngModel)]="postForm.description">
+            </div>
+            <div class="col">
+                <button type="submit" class="btn btn-primary" (click)="save()">Guardar</button>
+            </div>
+        </div>
+    </form>
+</div>
